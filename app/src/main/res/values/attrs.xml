@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundProgress">
+
+        <!-- 半径 -->
+        <attr name="radius" format="dimension" />
+
+        <!-- 进度条的宽度 -->
+        <attr name="progress_width" format="dimension" />
+
+        <!-- 等待条的宽度 -->
+        <attr name="wait_bar_width" format="dimension" />
+
+        <!-- 进度条的颜色 -->
+        <attr name="progress_bar_color" format="color" />
+
+        <!-- 等待条的颜色 -->
+        <attr name="wait_bar_color" format="color" />
+
+        <!-- 等待条的边框的颜色 -->
+        <attr name="wait_border_color" format="color" />
+
+        <!-- 内边框的宽度 -->
+        <attr name="inside_border_width" format="dimension" />
+
+        <!-- 外边框的宽度 -->
+        <attr name="outside_border_width" format="dimension" />
+
+        <!-- 是否展示外层边框 -->
+        <attr name="show_outside_border" format="boolean" />
+
+        <!--是否展示内层边框-->
+        <attr name="show_inside_border" format="boolean" />
+
+        <!--内层边框的颜色 -->
+        <attr name="inside_border_color" format="color" />
+
+        <!-- 外层边框的颜色 -->
+        <attr name="outside_border_color" format="color" />
+
+        <!-- 进度的文字大小 -->
+        <attr name="progress_text_size" format="dimension" />
+
+        <!-- 进度的文字颜色 -->
+        <attr name="progress_text_color" format="color" />
+
+        <!--进度条的样式-->
+        <attr name="progress_text_type" format="integer">
+            <enum name="percent" value="0" />
+            <enum name="division" value="1" />
+        </attr>
+
+        <attr name="show_progress_str" format="boolean" />
+
+    </declare-styleable>
+
+</resources>
